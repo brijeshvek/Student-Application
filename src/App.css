@@ -1,0 +1,42 @@
+form{
+    overflow: hidden;
+    margin-left: 10px;
+}
+h1{
+    font-size: 50px;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+h3{
+    font-size: 40px;
+    margin-left: 10px;
+}
+td label{
+    font-size: 20px;
+}
+.input_width{
+    width: 20rem;
+}
+.outline{
+    outline-color: burlywood;
+}
+.adharcard{
+    column-rule: 1px solid black;
+}
+span{
+    color: red;
+}
+@media screen and (min-width:768px) and(max-width:1023px) {
+    h1{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    h1{
+        font-size: 35px;
+    }
+    h3{
+        font-size: 20px;
+    }
+}
